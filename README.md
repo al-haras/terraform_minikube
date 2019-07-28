@@ -1,0 +1,3 @@
+This was created as a simple way to spin up a EC2 instance with kubectl and minikube in AWS in a publically accessable subnet. The server only has minikube started and has nothing built. This is basically used as a base for building or experimenting with.
+
+When in the EC2 instance, minikube will be running as ```ubuntu```. There is a workaround in place to run as ubuntu without `sudo` until fix. (see https://github.com/kubernetes/minikube/issues/3718)
