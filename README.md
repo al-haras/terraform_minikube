@@ -1,3 +1,3 @@
-This was created as a simple way to spin up a EC2 instance with kubectl and minikube in AWS in a publically accessable subnet. The server only has minikube started and has nothing built. This is basically used as a base for building or experimenting with.
+This was created as a simple way to spin up a EC2 instance with kubectl and minikube in AWS in a publicly accessible subnet using Terraform (12). The server only has minikube started and has nothing built. This is basically used as a base for building or experimenting with. Feel free to modify this to fit your needs, as it is just a jumping off point.
 
-When in the EC2 instance, minikube will be running as ```ubuntu```. There is a workaround in place to run as ubuntu without `sudo` until fix. (see https://github.com/kubernetes/minikube/issues/3718)
+When in the EC2 instance, minikube will be running as ```ubuntu```. There is a workaround in place to run as ubuntu without `sudo`. (see https://github.com/kubernetes/minikube/issues/3718)
